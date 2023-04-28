@@ -57,6 +57,54 @@ nav {
   padding: 100px;
 }
 
+/* SEARCH */
+.s-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  /* background-color: #c0c0c0; */
+}
+
+.search-bar {
+  /* width: 100%; */
+  width: 800px;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 60px;
+  border: 1px solid #b7b7b7;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #a09fa0;
+}
+
+::placeholder {
+  color: #b7b7b7;
+}
+
+.search-bar button img {
+  width: 25px;
+  cursor: pointer;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #6d6c69;
+}
+
 /* Card Section */
 /* 
   * 3 equal columns
@@ -65,9 +113,9 @@ nav {
 */
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px; 
-  padding: 20px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
 .card {
@@ -90,4 +138,20 @@ nav {
 
 .card-description {
   margin-top: 5px;
+}
+
+/* footer */
+footer {
+  background-color: #c0c0c0;
+  padding: 20px;
+  text-align: center;
+  /* border-radius: 10px 10px 0 0; */
+}
+
+/* About page */
+#about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
