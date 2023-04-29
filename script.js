@@ -14,11 +14,13 @@ const displayCardData = (data) => {
     const cardElement = document.createElement("div");
     cardElement.classList.add("card");
     cardElement.innerHTML = `
-            <img class="card-img" src="${item.image}" alt="${item.title}">
-            <div class="card-info">
+            <a href="#">
+              <img class="card-img" src="${item.image}" alt="${item.title}">
+              <div class="card-info">
                 <h2 class="card-title">${item.title}</h2>
                 <p class="card-description">${item.description}</p>
-            </div>
+              </div>
+            </a>
         `;
     cardContainer.appendChild(cardElement);
   });
