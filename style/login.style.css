@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 :root {
   --primary-color: #191645;
   --secondary-color: #43c6ac;
@@ -15,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: JetBrains Mono, sans-serif;
+  font-family: JetBrains Mono, "Poppins", Verdana, Geneva, Tahoma, sans-serif;
   height: 100vh;
   margin: -20px 0 50px;
 }
