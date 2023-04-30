@@ -1,0 +1,17 @@
+[
+  {
+    "title": "A Song of Ice and Fire",
+    "description": "A Song of Ice and Fire is a series of epic fantasy novels by the American novelist and screenwriter George R. R. Martin.",
+    "image": "../images/book1.jpeg"
+  },
+  {
+    "title": "Lord of the Rings",
+    "description": "The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien.",
+    "image": "../images/book2.png"
+  },
+  {
+    "title": "Harry Potter",
+    "description": "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling.",
+    "image": "../images/book3.png"
+  }
+]
