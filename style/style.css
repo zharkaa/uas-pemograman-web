@@ -18,15 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-/* * Hero pages */
-.hero {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(rgba(45, 45, 45, 0.5), rgba(14, 14, 14, 0.5)),
-    url(images/home2.jpg) no-repeat center / cover;
-  color: var(--text-white);
-}
-
 .hero-container {
   width: 90%;
   height: 100%;
@@ -77,7 +68,7 @@ body {
 }
 
 #homepage {
-  background: url(images/home5.jpg) no-repeat;
+  background: url(../images/home5.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   /* border-radius: 0 0 45px 45px; */
@@ -321,86 +312,11 @@ footer {
   background-color: var(--primary-color);
 }
 
+/* Content section */
 #about-content {
   display: grid;
   justify-content: center;
   align-items: center;
   padding: 50px;
   position: relative;
-}
-
-.title {
-  text-align: center;
-  color: var(--secondary-color);
-  margin: 10px 0;
-  position: relative;
-}
-
-.title::after {
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 2px;
-  background-image: linear-gradient(
-    to left,
-    transparent 5%,
-    var(--secondary-color)
-  );
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.team-row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px 0;
-}
-
-.member {
-  flex: 1 1 250px;
-  margin: 20px;
-  text-align: center;
-  padding: 20px 10px;
-  cursor: pointer;
-  max-width: 300px;
-  transition: all 0.3s;
-}
-
-.member:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transform: translateY(-20px);
-}
-
-.member img {
-  display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid var(--secondary-color);
-  margin: 0 auto;
-}
-
-.member h2 {
-  font-size: 24px;
-  color: var(--text-black);
-  margin: 15px 0;
-}
-
-.member p {
-  font-size: 14px;
-  color: var(--text-black);
-  line-height: 1.6;
-}
-
-/* 
-  * Media Queries Hero Pages
-*/
-
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
 }
