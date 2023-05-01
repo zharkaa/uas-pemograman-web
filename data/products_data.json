@@ -1,32 +1,32 @@
 [
   {
-    "title": "Card Title 1",
-    "description": "Card Description 1",
-    "image": "../images/1.jpg"
+    "title": "Si Putih",
+    "description": "Si Putih adalah sebuah novel dari Tere Liye",
+    "image": "../images/data1.jpg"
   },
   {
-    "title": "Card Title 2",
-    "description": "Card Description 2",
-    "image": "../images/2.jpg"
+    "title": "Selena",
+    "description": "Selena adalah sebuah novel dari Tere Liye",
+    "image": "../images/data2.jpg"
   },
   {
-    "title": "Card Title 3",
-    "description": "Card Description 3",
-    "image": "../images/3.jpg"
+    "title": "Ceros dan Batozar",
+    "description": "Ceros dan Batozar adalah sebuah novel dari Tere Liye",
+    "image": "../images/data3.jpg"
   },
   {
-    "title": "Card Title 4",
-    "description": "Card Description 4",
-    "image": "../images/4.jpg"
+    "title": "Komet",
+    "description": "Komet adalah sebuah novel dari Tere Liye",
+    "image": "../images/data4.jpg"
   },
   {
-    "title": "Card Title 5",
-    "description": "Card Description 4",
-    "image": "../images/5.jpg"
+    "title": "Bintang",
+    "description": "Bintang adalah sebuah novel dari Tere Liye",
+    "image": "../images/data5.jpg"
   },
   {
-    "title": "Card Title 6",
-    "description": "Card Description 6",
-    "image": "../images/6.jpg"
+    "title": "The Notebook",
+    "description": "The Notebook adalah sebuah novel dari Tere Liye",
+    "image": "../images/data6.jpg"
   }
 ]
