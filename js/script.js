@@ -1,5 +1,5 @@
 // Fetching data from a JSON file
-fetch("data/preview_data.json")
+fetch("../data/preview_data.json")
   .then((response) => response.json())
   .then((data) => displayCardData(data))
   .catch((error) => console.error("Error fetching data:", error));

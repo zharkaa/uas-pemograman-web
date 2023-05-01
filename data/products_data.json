@@ -2,26 +2,31 @@
   {
     "title": "Card Title 1",
     "description": "Card Description 1",
-    "image": "https://example.com/image1.jpg"
+    "image": "../images/1.jpg"
   },
   {
     "title": "Card Title 2",
     "description": "Card Description 2",
-    "image": "https://example.com/image2.jpg"
+    "image": "../images/2.jpg"
   },
   {
     "title": "Card Title 3",
     "description": "Card Description 3",
-    "image": "https://example.com/image3.jpg"
+    "image": "../images/3.jpg"
   },
   {
     "title": "Card Title 4",
     "description": "Card Description 4",
-    "image": "https://example.com/image4.jpg"
+    "image": "../images/4.jpg"
   },
-{
+  {
     "title": "Card Title 5",
     "description": "Card Description 4",
-    "image": "https://example.com/image4.jpg"
+    "image": "../images/5.jpg"
+  },
+  {
+    "title": "Card Title 6",
+    "description": "Card Description 6",
+    "image": "../images/6.jpg"
   }
 ]
