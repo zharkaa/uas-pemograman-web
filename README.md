@@ -4,7 +4,7 @@ Kelas A - Kelompok 6
 
 Anggota Kelompok:
 
-> 1.  Patrick Gustavo Bravy Walujan (192410101055)
+> 1.  Patrick Gustavo Bravy Walujan (20021106121)
 > 2.  Gracia Aurelia Florencia Rori (210211060153)
 > 3.  Adjie Chandra Arbie (20021106044)
 > 4.  Virgie Rizky Fazrah Posumah (210211060200)
