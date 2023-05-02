@@ -149,42 +149,6 @@ nav {
   color: var(--primary-color);
 }
 
-/* .preview {
-  background-color: var(--third-color);
-  padding: 20px;
-  /* margin-top: 50px; */
-  /* border-radius: 5px; */
-/* } */
-
-
-
-
-/* .btn-find {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .find-book-btn {
-  background-color: var(--secondary-color);
-  padding: 10px 20px;
-  margin-top: 30px;
-  border-radius: 5px;
-  color: var(--text-white);
-  text-decoration: none;
-  font-size: 1em;
-  letter-spacing: 0.1em;
-  font-weight: 200;
-  transition: 0.5s;
-} */
-
-/* .find-book-btn:hover {
-  letter-spacing: 0.25em;
-  background: var(--primary-color);
-  box-shadow: 0 0 35px var(--clr);
-  border-radius: 20px;
-} */
-
 .card {
   background-color: var(--third-color);
   padding: 20px;
@@ -204,9 +168,10 @@ nav {
 
 .card-img {
   width: 100%;
-  height: 400px;
-  object-fit: cover;
+  /* height: 400px; */
+  object-fit: contain;
   border-radius: 5px;
+  aspect-ratio: 3/2;
 }
 
 .card-title {
@@ -218,3 +183,17 @@ nav {
   margin-top: 8px;
   font-size: 12px;
 }
+
+
+@media screen and (max-width: 1060px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+

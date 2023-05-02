@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
   --primary-color: #191645;
@@ -77,10 +77,11 @@ nav {
 /* About page */
 #about-container {
   /* display: flex; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  /* padding: 50px; */
+  padding: 50px 50px 10px 50px;
   color: var(--text-black);
 }
 
@@ -90,7 +91,6 @@ nav {
 #about-nav {
   background-color: var(--primary-color);
 }
-
 
 .title {
   text-align: center;
@@ -158,4 +158,39 @@ nav {
   line-height: 1.6;
 }
 
+.preview h1 {
+  font-size: 40px;
+  font-weight: 600;
+  /* margin-bottom: 20px; */
+  color: var(--primary-color);
+  align-items: center;
+  justify-content: center;
+  /* display: flex; */
+  /* padding-top: 30px; */
+}
 
+.btn-find {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-book-btn {
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: var(--text-white);
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 200;
+  transition: 0.5s;
+}
+
+.find-book-btn:hover {
+  letter-spacing: 0.25em;
+  background: var(--primary-color);
+  box-shadow: 0 0 35px var(--clr);
+  border-radius: 20px;
+}
