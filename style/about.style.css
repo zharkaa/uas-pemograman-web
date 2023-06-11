@@ -173,6 +173,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  padding: 25px;
 }
 
 .find-book-btn {
