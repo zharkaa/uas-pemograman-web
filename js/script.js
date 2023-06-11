@@ -24,6 +24,7 @@ const displayCardData = (data) => {
         `;
     cardContainer.appendChild(cardElement);
   });
+  
 };
 
 // Login form
