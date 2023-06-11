@@ -20,4 +20,4 @@ Anggota Kelompok:
 
 
 # Note
-Folder data, js tidak di pakai
+Folder `data`, `js` tidak di pakai
