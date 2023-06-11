@@ -92,7 +92,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
         <div class="row">CopyRight &copy; 2023</div>
       </div>
     </footer>
-    <script src="../js/products.js"></script>
+    <!-- <script src="../js/products.js"></script> -->
   </body>
 </html>
 

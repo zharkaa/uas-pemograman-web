@@ -137,7 +137,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
       </div>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
   </body>
 </html>
 

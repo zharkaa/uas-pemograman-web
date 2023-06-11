@@ -20,7 +20,9 @@ Anggota Kelompok:
 
 
 # Note
-Folder `data`, `js` tidak di pakai
+Untuk akun, silahkan registrasi.
+
+Folder `data`, `js` tidak di pakai.
 
 Untuk file database ada kemungkinan db tidak akan ter-import. Hal ini dikarenakan nilai default `max_allowed_packet` adalah 1Mb, silahkan ganti nilai `max_allowed_packet` menjadi 5Mb pada file config `my.ini` di `xampp`.
 
