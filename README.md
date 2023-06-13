@@ -1,4 +1,4 @@
-# TUGAS UTS Pemorgraman Web
+# TUGAS UAS Pemorgraman Web
 
 Kelas A - Kelompok 6
 
